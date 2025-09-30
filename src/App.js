@@ -16,6 +16,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      <Slideshow />
       <TodayHotSales />
       <BrowseByCategory />
       <BestSellingProducts />
