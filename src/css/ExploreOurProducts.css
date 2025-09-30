@@ -1,0 +1,131 @@
+
+.header-with-arrows {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.arrow-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.arrow-btn {
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.arrow-btn:hover {
+  background: black;
+  color: white;
+}
+.section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.explore-products {
+  margin: 40px 0;
+}
+
+.section-label {
+  color: red;
+  font-weight: bold;
+  margin: 0;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 5px 0 20px 0;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-template-rows: auto auto; /* 2 baris */
+  gap: 20px;
+}
+
+.product-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: 0.3s;
+  text-align: left;
+  padding: 15px;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-img-wrapper {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.product-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.favorite-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: white;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.product-info h4 {
+  margin: 10px 0 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.price-section {
+  margin: 5px 0;
+}
+
+.price-final {
+  color: red;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.rating {
+  font-size: 14px;
+  color: gold;
+  margin: 5px 0;
+}
+
+.add-to-cart-btn {
+  background: black;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 8px;
+  transition: 0.3s;
+}
+
+.add-to-cart-btn:hover {
+  background: red;
+}

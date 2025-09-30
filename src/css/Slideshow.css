@@ -1,0 +1,88 @@
+/* Container utama: 2 kolom */
+.slideshow-container {
+  display: flex;
+  width: 1200px; /* lebar total */
+  margin: 20px auto;
+  gap: 20px;
+}
+
+/* Sidebar kategori */
+.sidebar {
+  width: 250px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.sidebar li {
+  padding: 12px 10px;
+  margin-bottom: 8px;
+  background: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+.sidebar li:hover {
+  background: #939393;
+  color: white;
+}
+
+/* Slideshow */
+.slideshow {
+  position: relative;
+  width: 900px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.slide-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* atau contain + z-index */
+  background-color: #fff;
+  opacity: 0;
+  z-index: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.slide-image.active {
+  opacity: 1;
+  z-index: 1;
+}
+
+
+.slide-image.active {
+  opacity: 1;
+}
+
+.next-btn {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.next-btn:hover {
+  background: rgba(0,0,0,0.7);
+}
