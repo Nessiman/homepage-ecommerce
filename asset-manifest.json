@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/homepage-ecommerce/static/css/main.f855e6bc.css",
-    "main.js": "/homepage-ecommerce/static/js/main.733198c2.js",
+    "main.css": "/homepage-ecommerce/static/css/main.c55543b6.css",
+    "main.js": "/homepage-ecommerce/static/js/main.7477d4df.js",
     "static/js/453.d7b46658.chunk.js": "/homepage-ecommerce/static/js/453.d7b46658.chunk.js",
-    "static/media/logo.svg": "/homepage-ecommerce/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/UpTo.png": "/homepage-ecommerce/static/media/UpTo.91ecc45fd0732a8522e8.png",
+    "static/media/happyhours.jpg": "/homepage-ecommerce/static/media/happyhours.3644bd2d117863ca7705.jpg",
+    "static/media/diskon.jpg": "/homepage-ecommerce/static/media/diskon.005afd5f592803ab748a.jpg",
+    "static/media/oliveoil.jpg": "/homepage-ecommerce/static/media/oliveoil.db505b6772887a172369.jpg",
+    "static/media/sawi.jpg": "/homepage-ecommerce/static/media/sawi.5f8a8a322ce422e25a14.jpg",
+    "static/media/wortel.jpg": "/homepage-ecommerce/static/media/wortel.853dfce3d8a9184ac478.jpg",
+    "static/media/pakcoy.jpg": "/homepage-ecommerce/static/media/pakcoy.99ed1725f38008c035af.jpg",
+    "static/media/milk.png": "/homepage-ecommerce/static/media/milk.6bee94181df5164dad9c.png",
     "index.html": "/homepage-ecommerce/index.html",
-    "main.f855e6bc.css.map": "/homepage-ecommerce/static/css/main.f855e6bc.css.map",
-    "main.733198c2.js.map": "/homepage-ecommerce/static/js/main.733198c2.js.map",
+    "main.c55543b6.css.map": "/homepage-ecommerce/static/css/main.c55543b6.css.map",
+    "main.7477d4df.js.map": "/homepage-ecommerce/static/js/main.7477d4df.js.map",
     "453.d7b46658.chunk.js.map": "/homepage-ecommerce/static/js/453.d7b46658.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.733198c2.js"
+    "static/css/main.c55543b6.css",
+    "static/js/main.7477d4df.js"
   ]
 }
