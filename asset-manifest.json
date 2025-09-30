@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/homepage-ecommerce/static/css/main.c55543b6.css",
-    "main.js": "/homepage-ecommerce/static/js/main.7477d4df.js",
+    "main.css": "/homepage-ecommerce/static/css/main.fa3ea500.css",
+    "main.js": "/homepage-ecommerce/static/js/main.70dfb6bc.js",
     "static/js/453.d7b46658.chunk.js": "/homepage-ecommerce/static/js/453.d7b46658.chunk.js",
     "static/media/UpTo.png": "/homepage-ecommerce/static/media/UpTo.91ecc45fd0732a8522e8.png",
     "static/media/happyhours.jpg": "/homepage-ecommerce/static/media/happyhours.3644bd2d117863ca7705.jpg",
@@ -12,12 +12,12 @@
     "static/media/pakcoy.jpg": "/homepage-ecommerce/static/media/pakcoy.99ed1725f38008c035af.jpg",
     "static/media/milk.png": "/homepage-ecommerce/static/media/milk.6bee94181df5164dad9c.png",
     "index.html": "/homepage-ecommerce/index.html",
-    "main.c55543b6.css.map": "/homepage-ecommerce/static/css/main.c55543b6.css.map",
-    "main.7477d4df.js.map": "/homepage-ecommerce/static/js/main.7477d4df.js.map",
+    "main.fa3ea500.css.map": "/homepage-ecommerce/static/css/main.fa3ea500.css.map",
+    "main.70dfb6bc.js.map": "/homepage-ecommerce/static/js/main.70dfb6bc.js.map",
     "453.d7b46658.chunk.js.map": "/homepage-ecommerce/static/js/453.d7b46658.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c55543b6.css",
-    "static/js/main.7477d4df.js"
+    "static/css/main.fa3ea500.css",
+    "static/js/main.70dfb6bc.js"
   ]
 }
